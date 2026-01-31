@@ -10,9 +10,8 @@ function NoClick() {
 function GenerateText() {
   let html = "";
   html += "<h1>Hi Love!</h1>";
-  html +=
-    "<p>I hope this is not too lame, but I remember you were all sad once that I havent done this before</p>";
-  html += "<p>So I am doing it now :)</p>";
+  html += "<p>I know this is the lamest way someone can do valentines but</p>";
+  html += "<br>";
   html += "<h1>I love you so much</h1>";
   html += "<p>will you be my valentine?</p>";
   html +=
@@ -25,7 +24,7 @@ function YesClick() {
   let titleText = document.querySelector("#question-text");
   TypeOn(titleText, "Yay <3!");
   paper.innerHTML =
-    "<p style='color: var(--pink5);'>I'll see you for our reservation on the 14th at 8:30!</p><p style='color: hotpink;'>Love, Josh</p>";
+    "<p style='color: var(--pink5);'>I'll see you for our reservation on the 14th at 8:45!</p><p style='color: hotpink;'>Love, Josh</p>";
 }
 function EnvelopeClick() {
   let envelope = document.querySelector("#envelope");
